@@ -22,6 +22,8 @@
     <!-- CSS Files comes here -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/styles.css" rel="stylesheet" media="screen">
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    
 
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow" />  
@@ -38,7 +40,7 @@
 
     </script>
     <!-- End Google Analytics -->
-
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   </head>
   
     <body>
@@ -55,8 +57,14 @@
             <h1>Good Design, Less Pain</h1>
             <p>Luxury, easy to use code blocks for free... maybe.</p>
             <p><a type="button" class="btn btn-default"><i class="glyphicon glyphicon-play"></i>See our video</a></p>
-            <img class="center-block" src="image/showcase.jpg">
+            <img class="center-block" id="showcase" src="image/showcase.jpg">
         </div>
+
+        <!-- js - This code should be at the end of the document just before the closing body tag -->
+        <script type="text/javascript">
+            $('#showcase').addClass('animated fadeInUp');
+        </script>
+
 
 
         <!-- Header Block 1
@@ -69,7 +77,8 @@
         </div>
 
         <!-- JavaScript plugins comes here -->
-        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        
+
         <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
