@@ -13,7 +13,10 @@ body, html{
     padding:0;
 } 
 
-/*Header Block 1*/
+
+/***********************
+    Header Block 1
+***********************/
 
 h1,h2,h3,h4,h5,h6,p,a{
     text-align: center;
@@ -65,7 +68,11 @@ i{
     padding: 12px 30px;
 }
 
-/*Header Block 2*/
+
+/***********************
+    Header Block 2
+***********************/
+
 #header2 {
     height: 100%; 
 }
@@ -87,7 +94,6 @@ i{
     font-size: 40px;
     color: #e4c181;
 }
-
 #header2 .jumbotron h2{
     font-family: 'Roboto', 'sans-serif';
     margin-top: 10px;
@@ -99,7 +105,6 @@ i{
     font-weight: 100;
     margin: 0 80px;
 }
-
 #header2 .jumbotron a{
     font-family: 'Roboto', 'sans-serif';
     font-weight: 400;
@@ -107,12 +112,9 @@ i{
     color: #fff;
     text-transform: uppercase;
 }
-
 #header2 .jumbotron a:hover{
     text-decoration: none;
 }
-
-
 #header2 .jumbotron .main{
     margin-top: 25%;
 }
@@ -122,6 +124,106 @@ i{
     font-family: 'Roboto', sans-serif;
     padding: 12px 30px;
 }
+
+
+/***********************
+    Header Block 3
+***********************/
+#header3 {
+    height: 100%; 
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+#header3 h1{
+    text-align: left;
+}
+#header3 h4{
+    text-align: left;
+}
+#header3 header{
+    width: 100%;
+    height: 100%;
+}
+#header3 .brand{
+    float: left;
+}
+#header3 .brand h2{
+    margin: 0;
+    padding: 0;
+    margin-top: 75px;
+}
+#header3 .social-link{
+    float: right;
+}
+#header3 .social-link li{
+    float: left;
+    list-style: none;
+    margin-top: 85px;
+    margin-right:35px;
+}
+#header3 .text-block{
+    position: absolute;
+    top: 50%;
+    margin-top: -150px;
+}
+#header3 .btn-block{
+    margin-top: 40px;
+}
+#header3 .learn{
+    margin-right: 15px;
+}
+#header3 .twitter-share-button{
+    margin: 0;
+    padding: 0;
+    vertical-align: text-bottom !important; 
+}
+#header3 .fb-like{
+    vertical-align: top !important; 
+    margin: 0;
+    padding: 0;
+}
+#header3 .social-footer{
+    position: absolute;
+    bottom: 50px
+}
+#header3 .learn-more-btn{
+    background-color: black;
+    padding: 12px 35px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px; /* future proofing */
+    -khtml-border-radius: 4px; /* for old Konqueror browsers */
+    color: #fff;
+}
+#header3 .learn-more-btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+#header3 .sign-up-btn{
+    background-color: #409BE7;
+    padding: 12px 35px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px; /* future proofing */
+    -khtml-border-radius: 4px; /* for old Konqueror browsers */
+    color: #fff;
+}
+#header3 .sign-up-btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 990px){
+    #header3 .fb-like{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 400px){
+    #header3 .learn-more-btn{
+        margin-right: 0;
+    }
 
 
 
