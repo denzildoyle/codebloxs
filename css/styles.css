@@ -21,7 +21,7 @@ h1,h2,h3,h4,h5,h6,p,a{
 i{
     margin-right: 15px;
 }
-.jumbotron{
+#header1 .jumbotron{
     padding: 0;
     margin: 0;
     padding-top: 30px;
@@ -33,20 +33,20 @@ i{
     color: #fff;
     overflow: hidden;
 }
-.jumbotron h1{
+#header1 .jumbotron h1{
     font-family: 'Roboto', 'sans-serif';
     font-weight: 100;
     font-size: 40px;
 }
-.jumbotron p{
+#header1 .jumbotron p{
     font-family: 'Roboto', 'sans-serif';
     font-size: 16px;
     font-weight: 100;
 }
-.jumbotron img{
+#header1 .jumbotron img{
     margin-top: 80px;
 }
-.jumbotron .btn-default{
+#header1 .jumbotron .btn-default{
     padding: 12px 30px;
     font-size: 12px;
     line-height: 1.33;
@@ -58,7 +58,7 @@ i{
     background-color: transparent; 
     border-color: #FFF;
 }
-.block-title{
+#header1 .block-title{
     background: #333;
     color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -66,4 +66,62 @@ i{
 }
 
 /*Header Block 2*/
+#header2 {
+    height: 100%; 
+}
+#header2 .jumbotron{
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    height: 100%; 
+    width: 100%;
+    background: url('../image/IMG_5992_edit.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    overflow: hidden;
+}
+#header2 .jumbotron h1{
+    font-family: 'Roboto', 'sans-serif';
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #e4c181;
+}
+
+#header2 .jumbotron h2{
+    font-family: 'Roboto', 'sans-serif';
+    margin-top: 10px;
+
+}
+#header2 .jumbotron p{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0 80px;
+}
+
+#header2 .jumbotron a{
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#header2 .jumbotron a:hover{
+    text-decoration: none;
+}
+
+
+#header2 .jumbotron .main{
+    margin-top: 25%;
+}
+#header2 .block-title{
+    background: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 30px;
+}
+
+
 
