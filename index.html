@@ -98,7 +98,7 @@
         <section id="header3">
             <nav>
                 <div class="container">
-                    <div class="brand"><h2>Spotcam</h2></div>
+                    <div class="brand"><h2>Codeblux</h2></div>
                     <ul class="social-link">
                         <li><a href="https://www.facebook.com/myspotcams" alt="Facebook">Facebook</a></li>
                         <li><a href="https://twitter.com/spotcamapp" alt="Twitter">Twitter</a></li>
@@ -110,8 +110,9 @@
                 <div class="row">
                     <div class="text-block">
                         <div class="col-xs-10 col-md-7">
-                            <h1>Follow places to see what's happening in real time.</h1>
-                            <h4>The only mobile app that lets you follow places instead of people.</h4>
+                            <h1>Lorem ipsum dolor sit amet, sectetur adipisicing elit.</h1>
+                            <h4>Adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis.</h4>
                             <div class="btn-block">
                                 <a href="#information" class="learn-more-btn btn-lg learn" alt="learn more button">learn more</a>
                                 <a href="#sign-up" class="sign-up-btn btn-lg" alt="sign up button" >sign up</a>
@@ -132,9 +133,34 @@
                 </div>
             </div>
         </section>
+        <div id="fb-root"></div>
+        <script>
+            // twitter
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=260434170806164";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
 
+            // facebook
+            !function(d,s,id){
+                var js,fjs=d.getElementsByTagName(s)[0];
+                if(!d.getElementById(id)){
+                    js=d.createElement(s);js.id=id;
+                    js.src="https://platform.twitter.com/widgets.js";
+                    fjs.parentNode.insertBefore(js,fjs);
+                }
+            }(document,"script","twitter-wjs");
+        </script>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
 
         <!-- JavaScript plugins comes here -->
-        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
