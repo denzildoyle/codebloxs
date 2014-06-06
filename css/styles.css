@@ -76,10 +76,14 @@ i{
 #header2 {
     height: 100%; 
 }
+
+#header2 .clear-fix{
+    clear:all;
+}
 #header2 .jumbotron{
+    position: relative;
     padding: 0;
     margin: 0;
-    padding-top: 30px;
     height: 100%; 
     width: 100%;
     background: url('../image/IMG_5992_edit.jpg');
@@ -115,8 +119,12 @@ i{
 #header2 .jumbotron a:hover{
     text-decoration: none;
 }
-#header2 .jumbotron .main{
-    margin-top: 25%;
+#header2 .content-area{
+       position: relative;
+    top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 #header2 .block-title{
     background: #333;
@@ -246,6 +254,14 @@ i{
     color: #fff;
     font-family: 'Roboto', sans-serif;
     padding: 12px 30px;
+}
+
+#header4 .content-area{
+    position: relative;
+    top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 #header4 .layer{
     width: 100%;
