@@ -79,7 +79,7 @@ i{
 #header2 .jumbotron{
     padding: 0;
     margin: 0;
-    padding-top: 30px;
+    padding-top: 60px;
     height: 100%; 
     width: 100%;
     background: url('../image/IMG_5992_edit.jpg');
@@ -115,8 +115,12 @@ i{
 #header2 .jumbotron a:hover{
     text-decoration: none;
 }
-#header2 .jumbotron .main{
-    margin-top: 25%;
+#header2 .content-area{
+        position: relative;
+    top: 35%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 #header2 .block-title{
     background: #333;
@@ -129,6 +133,14 @@ i{
 /***********************
     Header Block 3
 ***********************/
+
+#header3 .block-title{
+    background: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 30px;
+}
+
 #header3 {
     height: 100%; 
     width: 100%;
@@ -213,17 +225,108 @@ i{
     color: #fff;
     text-decoration: none;
 }
-
 @media (max-width: 990px){
     #header3 .fb-like{
         margin-top: 30px;
     }
 }
-
 @media (max-width: 400px){
     #header3 .learn-more-btn{
         margin-right: 0;
     }
+}
+
+
+/***********************
+    Header Block 4
+***********************/
+
+#header4{
+    height: 100%;
+    width: 100%;
+}
+#header4 .block-title{
+    background: #333;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px 30px;
+}
+#header4 .content-area{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#header4 .layer{
+    width: 100%;
+    height: 100%;
+    background: rgba(32, 124, 202, .5); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(32, 124, 202, .5) 0%, rgba(229, 116, 45, .8) 96%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(32, 124, 202, .5)), color-stop(96%,rgba(229, 116, 45, .8))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  rgba(32, 124, 202, .5) 0%,rgba(229, 116, 45, .8) 96%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  rgba(32, 124, 202, .5) 0%,rgba(229, 116, 45, .8) 96%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  rgba(32, 124, 202, .5) 0%,rgba(229, 116, 45, .8) 96%); /* IE10+ */
+    background: linear-gradient(45deg,  rgba(32, 124, 202, .5) 0%,rgba(229, 116, 45, .8) 96%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207cca', endColorstr='rgba(229, 116, 45, .6)',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    color: #fff;
+}
+#header4 .jumbotron{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image:url('../image/picjumbo/picjumbo.com_Smooth-Touch-Workspace.jpg');
+    background-repeat:no-repeat;
+    background-attachment:scrolls;
+    background-position:center; 
+    background-size: cover;
+}
+#header4 .btn-section{
+    margin-top: 40px;
+}
+#header4 button{
+    width: 100%;
+}
+
+#header4 h3{
+    font-weight: 300;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px rgba( 0, 0, 0, 0.4);
+}
+#header4 .main-btn{
+    -webkit-transition: background-color 0.5s ease;
+    -moz-transition: background-color 0.5s ease;
+    -o-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+    background-color: #fd9408;
+    border: none;
+    padding: 12px 0;
+    border-radius: 50px;
+} 
+#header4 .main-btn:hover{
+    background-color: #f78110;
+    border: none;
+    padding: 12px 0;
+    border-radius: 50px;
+} 
+#header4 .secondary-btn{
+        -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+
+#header4 .secondary-btn:hover{
+    border: 2px solid #444444;
+}
+
+
+
 
 
 
